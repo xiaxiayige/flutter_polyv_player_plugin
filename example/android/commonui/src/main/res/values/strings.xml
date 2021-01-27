@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">commonUI</string>
+    <string name="unknow">未知</string>
+    <string name="live_bitrate_float_tip">您当前网络状态不稳定，建议您切换至</string>
+
+
+</resources>
