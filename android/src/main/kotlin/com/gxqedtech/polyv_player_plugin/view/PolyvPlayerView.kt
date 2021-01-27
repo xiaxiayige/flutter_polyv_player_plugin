@@ -48,9 +48,9 @@ class PolyvPlayerView(context: Context, id: Int, creationParams: Map<String, Str
    fun initSdk(context: Context){
        val client = PolyvSDKClient.getInstance()
        client.settingsWithConfigString(
-               "hnf2sR02KbEidoqdWLSR5LgMEtVRHb/VYPZWFBTtyjR3ya7V7Czcov8MX721yQj+uZJMjWh/tq4fV8kMqKYUfb5DPhacV6GKBMUlvY3DYwohvN1P2IjJQoxfx1fR56SnZ6uPdPH/aMsi0awTAT6dKw==",
-               "VXtlHmwfS2oYm0CZ",
-               "2u9gDPKdX6GyQJKU")
+               "",
+               "",
+               "")
        client.initSetting(context.applicationContext)
    }
 
